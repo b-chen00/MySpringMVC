@@ -20,13 +20,12 @@ public class CustomerService {
 
   }
 	
-	
-	@Transactional
-	public boolean addCustomer(Customer customer) {
-		
+	@Transactional(readOnly = false)
+	public boolean addCustomer(String name, String email) {
+		Customer c = new Customer(name, email);
    		 // do some business processing  here ...
     		//now call DAO layer
-		return(customerdao.insert(customer));
+		return(customerdao.insert(c));
 		
 	}
 	
@@ -44,5 +43,12 @@ public class CustomerService {
    		 // do some business processing here ...
    		 //now call DAO layer
 		customerdao.delete(theId);
+	}
+	
+	@Transactional
+	public void updateCustomer(String id, String name, String email) {
+   		 // do some business processing here ...
+   		 //now call DAO layer
+		customerdao.update(id, name, email);
 	}
 }

@@ -30,6 +30,12 @@ public class Customer {
 		email = e;
 	}
 	
+	public Customer(String n, String e) {
+		super();
+		name = n;
+		email = e;
+	}
+	
 	public int getId() {
 		return this.id;
 	}
