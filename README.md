@@ -18,5 +18,6 @@ This project was built using the Spring Framework, Maven build tool, and MySql w
 3. If deployed locally, go to the url http://localhost:8080/MySpringMVC/.
 
 ## To-do:
-- Add CSS to the website.
 - Convert HibernateTemplate to SessionFactory as HibernateTemplate is deprecated.
+- Add more information to customer that can be stored in the table.
+- Add CSS to the website.
