@@ -1,7 +1,7 @@
 # Project Customer Relationship Manager
 
 ## Summary/Description
-This is a simple web-based Spring Maven project to create, update, and delete customer informations. All customer information are displayed on a table with buttons to create, edit, and delete customers. This project was built using the Spring Framework, Maven build tool, and MySql where informations are stored. The project is deployed using Apache Tomcat 9. A demo of this project can be found at my [personal website](https://b-chen00.github.io/).
+This is a simple web-based Spring Maven project to create, update, and delete customer informations. All customer information are displayed on a table with buttons to create, edit, and delete customers. This project was built using the Spring Framework, Maven build tool, and MySql where informations are stored. The project is deployed using Apache Tomcat 9. <br><br>A demo of this project can be found at my [personal website](https://b-chen00.github.io/).
 
 ## How to Run the Project:  
 
